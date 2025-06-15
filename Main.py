@@ -19,7 +19,7 @@ username_field = driver.find_element(By.NAME, "username")
 password_field = driver.find_element(By.NAME, "password")
 
 username_field.send_keys("qajonelctph@gmail.com")
-password_field.send_keys("QAWingz123")
+password_field.send_keys("QATest123")
 
 login_button = driver.find_element(By.XPATH, "//button[text()='Sign In']")
 login_button.click()
